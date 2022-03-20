@@ -26,7 +26,7 @@ const { AccordionAnimated, AccordionItem } = require("./accordion-animated.js");
 <!-- in html file -->
 <head>
   ...
-  <script src="./Timer.js"></script>
+  <script src="./accordion-animated.js"></script>
   ...
 </head>
 <body>
