@@ -106,7 +106,30 @@ new AccordionAnimated({
 
 ```
 
+# Configuration
 
+```typescript
+AccordionItem({
+    name: string,
+    nameColor: string,
+    title: string,
+    titleColor: string,
+    iconColor: string,
+    imageUrl: string,
+    hoverColor1: string,
+    hoverColor2: string,
+    description: string,
+    descriptionColor: string,
+    borderColor: string,
+    shadowColorRGB: string,
+});
+
+
+AccordionAnimated({
+  target: HTMLElement,
+  items: Array<AccordionItem>
+});
+```
 
 
 ## [Click Here to See Live Demo](https://sllujaan.github.io/accordion-animated-smooth/)🚀
