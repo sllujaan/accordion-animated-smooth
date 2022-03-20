@@ -37,5 +37,54 @@ const { AccordionAnimated, AccordionItem } = require("./accordion-animated.js");
 </body>
 ```
 
+# Use
+
+```html
+<!-- in html file -->
+<head>
+  ...
+  <style>
+    .container {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+  ...
+</body>
+```
+
+```js
+// in script tag or index.js file
+
+// create an array for the list items
+const accordionItems = [];
+
+// create new list item and push it in the accordionItems array previously create.
+accordionItems.push(
+  new AccordionItem({
+    name: "Lorem ipsum 3",
+    nameColor: "black",
+    title: "Title here",
+    titleColor: "gray",
+    iconColor: "black",
+    imageUrl: "profile_user.jpg",
+    hoverColor1: "#f4c7b2",
+    hoverColor2: "#dedbe2",
+    description: htmlDescription,
+    descriptionColor: "black",
+    borderColor: "gray",
+    shadowColorRGB: "1 1 1",
+  })
+);
+
+
+```
+
+
+
 
 ## [Click Here to See Live Demo](https://sllujaan.github.io/accordion-animated-smooth/)🚀
