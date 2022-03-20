@@ -60,6 +60,9 @@ const { AccordionAnimated, AccordionItem } = require("./accordion-animated.js");
 ```js
 // in script tag or index.js file
 
+// retrieve the target element
+const container = document.querySelectorAll(".container")[0];
+
 // create an array for the list items
 const accordionItems = [];
 
@@ -74,12 +77,31 @@ accordionItems.push(
     imageUrl: "profile_user.jpg",
     hoverColor1: "#f4c7b2",
     hoverColor2: "#dedbe2",
-    description: htmlDescription,
+    description: "<p>html description<p>",
     descriptionColor: "black",
     borderColor: "gray",
     shadowColorRGB: "1 1 1",
   })
 );
+
+// add some more items
+accordionItems.push(
+  new AccordionItem({
+    ...
+  })
+);
+accordionItems.push(
+  new AccordionItem({
+    ...
+  })
+);
+
+
+// now initialize the List 
+new AccordionAnimated({
+  target: container,
+  items: accordionItems
+});
 
 
 ```
