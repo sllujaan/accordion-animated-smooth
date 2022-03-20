@@ -8,6 +8,34 @@
 
 ![image](https://user-images.githubusercontent.com/31973579/159147711-8d777ebf-52c3-4193-9fbd-41a02478887c.png)
 
+# Installation
+
+**For Commonjs & ESModules:**
+
+```js
+// in commonjs & ESModules
+import { AccordionAnimated, AccordionItem } from "./accordion-animated.js";
+// or
+// in commonjs
+const { AccordionAnimated, AccordionItem } = require("./accordion-animated.js");
+```
+
+**In Plain Javascript:**
+
+```html
+<!-- in html file -->
+<head>
+  ...
+  <script src="./Timer.js"></script>
+  ...
+</head>
+<body>
+  ...
+  <script type="text/javascript">
+    // code
+  </script>
+</body>
+```
 
 
 ## [Click Here to See Live Demo](https://sllujaan.github.io/accordion-animated-smooth/)🚀
